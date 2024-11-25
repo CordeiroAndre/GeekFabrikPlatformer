@@ -75,3 +75,6 @@ DerivedDataCache/*
 
 # Art files
 trunk/art
+/trunk/game/GeekFabrikPlatformer/Intermediate
+/trunk/game/GeekFabrikPlatformer/Saved
+/trunk/game/GeekFabrikPlatformer/Saved
