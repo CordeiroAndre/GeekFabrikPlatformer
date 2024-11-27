@@ -3110,3 +3110,139 @@ FPackageName: Skipped package /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin
 [2024.11.25-21.44.06:552][421]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2524.204102
 [2024.11.25-21.44.07:554][424]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.11.25-21.44.07:554][424]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2524.868652, Update Interval: 322.843109
+[2024.11.25-21.50.08:607][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-21.50.08:690][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/WidgetStacking/Core/WBP_Core] ([2] browsable assets)...
+[2024.11.25-21.50.08:690][755]OBJ SavePackage: Finished generating thumbnails for package [/WidgetStacking/Core/WBP_Core]
+[2024.11.25-21.50.08:700][755]LogSavePackage: Moving output files for package: /WidgetStacking/Core/WBP_Core
+[2024.11.25-21.50.08:701][755]LogSavePackage: Moving 'C:/Users/Andre luiz/Documents/GitHub/GeekFabrikPlatformer/trunk/game/GeekFabrikPlatformer/Saved/WBP_Core4C9112E44F72361C69313298CAF41C4F.tmp' to 'C:/Users/Andre luiz/Documents/GitHub/GeekFabrikPlatformer/trunk/game/GeekFabrikPlatformer/Plugins/WidgetStacking/Content/Core/WBP_Core.uasset'
+[2024.11.25-21.50.08:711][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.980 ms (total: 4.42 sec)
+[2024.11.25-21.50.08:804][755]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.25-21.50.08:804][755]LogContentValidation: Enabled validators:
+[2024.11.25-21.50.08:804][755]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.25-21.50.08:804][755]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.25-21.50.08:804][755]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.25-21.50.08:804][755]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.25-21.50.08:804][755]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.25-21.50.08:804][755]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.25-21.50.08:805][755]AssetCheck: /WidgetStacking/Core/WBP_Core Validating asset
+[2024.11.25-21.50.13:011][253]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-21.50.13:017][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-21.50.13:017][253]LogPlayLevel: Creating play world package: /WidgetStacking/Testing/UEDPIE_0_P_Dummy
+[2024.11.25-21.50.13:018][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000906s)
+[2024.11.25-21.50.13:018][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /WidgetStacking/Testing/P_Dummy.P_Dummy to /WidgetStacking/Testing/UEDPIE_0_P_Dummy.P_Dummy (0.000945s)
+[2024.11.25-21.50.13:038][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.25-21.50.13:040][253]LogChaosDD: Creating Chaos Debug Draw Scene for world P_Dummy
+[2024.11.25-21.50.13:041][253]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /WidgetStacking/Testing/UEDPIE_0_P_Dummy.P_Dummy'.
+[2024.11.25-21.50.13:042][253]LogPlayLevel: PIE: World Init took: (0.001681s)
+[2024.11.25-21.50.13:043][253]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.11.25-21.50.13:043][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-21.50.13:043][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-21.50.13:043][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-21.50.13:043][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-21.50.13:043][253]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.11.25-21.50.13:043][253]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-21.50.13:043][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.11.25-21.50.13:043][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-21.50.13:043][253]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-21.50.13:043][253]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-21.50.13:043][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-21.50.13:046][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-21.50.13:058][253]LogAudioMixer: Display: Using Audio Hardware Device Speakers (HyperX Cloud Stinger Core Wireless DTS)
+[2024.11.25-21.50.13:059][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-21.50.13:059][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-21.50.13:059][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-21.50.13:060][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.11.25-21.50.13:060][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.11.25-21.50.13:062][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.11.25-21.50.13:062][253]LogInit: FAudioDevice initialized with ID 12.
+[2024.11.25-21.50.13:062][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.11.25-21.50.13:062][253]LogAudio: Display: Audio Device (ID: 12) registered with world 'P_Dummy'.
+[2024.11.25-21.50.13:062][253]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.25-21.50.13:066][253]LogLoad: Game class is 'GM_Dummy_C'
+[2024.11.25-21.50.13:066][253]LogWorld: Bringing World /WidgetStacking/Testing/UEDPIE_0_P_Dummy.P_Dummy up for play (max tick rate 0) at 2024.11.25-18.50.13
+[2024.11.25-21.50.13:066][253]LogWorld: Bringing up level for play took: 0.000407
+[2024.11.25-21.50.13:069][253]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.11.25-21.50.13:071][253]PIE: Server logged in
+[2024.11.25-21.50.13:072][253]PIE: Play in editor total start time 0.056 seconds.
+[2024.11.25-21.50.25:625][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-21.50.25:625][753]LogWorld: BeginTearingDown for /WidgetStacking/Testing/UEDPIE_0_P_Dummy
+[2024.11.25-21.50.25:626][753]LogWorld: UWorld::CleanupWorld for P_Dummy, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-21.50.25:626][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-21.50.25:630][753]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-21.50.25:634][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-21.50.25:656][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-21.50.25:656][753]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.25-21.50.25:656][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.25-21.50.25:658][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.25-21.50.25:664][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.11.25-21.50.25:709][757]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.11.25-21.50.26:949][893]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2904.603760
+[2024.11.25-21.50.27:141][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-21.50.27:141][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2904.787109, Update Interval: 357.800842
+[2024.11.25-21.53.21:699][534]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-21.53.21:791][534]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/WidgetStacking/Core/WBP_Core] ([2] browsable assets)...
+[2024.11.25-21.53.21:795][534]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /WidgetStacking/Core/WBP_Core.WBP_Core]
+[2024.11.25-21.53.21:796][534]OBJ SavePackage: Finished generating thumbnails for package [/WidgetStacking/Core/WBP_Core]
+[2024.11.25-21.53.21:807][534]LogSavePackage: Moving output files for package: /WidgetStacking/Core/WBP_Core
+[2024.11.25-21.53.21:808][534]LogSavePackage: Moving 'C:/Users/Andre luiz/Documents/GitHub/GeekFabrikPlatformer/trunk/game/GeekFabrikPlatformer/Saved/WBP_Core1E75BB9A42D441885A3D6BBB716F1103.tmp' to 'C:/Users/Andre luiz/Documents/GitHub/GeekFabrikPlatformer/trunk/game/GeekFabrikPlatformer/Plugins/WidgetStacking/Content/Core/WBP_Core.uasset'
+[2024.11.25-21.53.21:817][534]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.201 ms (total: 4.54 sec)
+[2024.11.25-21.53.21:907][534]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.25-21.53.21:907][534]LogContentValidation: Enabled validators:
+[2024.11.25-21.53.21:907][534]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.25-21.53.21:907][534]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.25-21.53.21:907][534]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.25-21.53.21:907][534]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.25-21.53.21:907][534]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.25-21.53.21:907][534]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.25-21.53.21:908][534]AssetCheck: /WidgetStacking/Core/WBP_Core Validating asset
+[2024.11.25-21.55.55:957][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-21.55.56:033][521]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/WidgetStacking/Core/WBP_Core] ([2] browsable assets)...
+[2024.11.25-21.55.56:036][521]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /WidgetStacking/Core/WBP_Core.WBP_Core]
+[2024.11.25-21.55.56:036][521]OBJ SavePackage: Finished generating thumbnails for package [/WidgetStacking/Core/WBP_Core]
+[2024.11.25-21.55.56:049][521]LogSavePackage: Moving output files for package: /WidgetStacking/Core/WBP_Core
+[2024.11.25-21.55.56:050][521]LogSavePackage: Moving 'C:/Users/Andre luiz/Documents/GitHub/GeekFabrikPlatformer/trunk/game/GeekFabrikPlatformer/Saved/WBP_Core890055104C5BE563706DB995D4B04896.tmp' to 'C:/Users/Andre luiz/Documents/GitHub/GeekFabrikPlatformer/trunk/game/GeekFabrikPlatformer/Plugins/WidgetStacking/Content/Core/WBP_Core.uasset'
+[2024.11.25-21.55.56:059][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.773 ms (total: 4.64 sec)
+[2024.11.25-21.55.56:129][521]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.25-21.55.56:129][521]LogContentValidation: Enabled validators:
+[2024.11.25-21.55.56:129][521]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.25-21.55.56:129][521]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.25-21.55.56:129][521]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.25-21.55.56:129][521]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.25-21.55.56:129][521]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.25-21.55.56:129][521]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.25-21.55.56:129][521]AssetCheck: /WidgetStacking/Core/WBP_Core Validating asset
+[2024.11.25-21.56.59:866][533]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3297.503662
+[2024.11.25-21.57.00:055][555]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-21.57.00:055][555]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3297.684570, Update Interval: 306.011536
+[2024.11.25-21.58.43:364][672]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-21.58.43:437][672]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/WidgetStacking/Core/WBP_Core] ([2] browsable assets)...
+[2024.11.25-21.58.43:439][672]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /WidgetStacking/Core/WBP_Core.WBP_Core]
+[2024.11.25-21.58.43:439][672]OBJ SavePackage: Finished generating thumbnails for package [/WidgetStacking/Core/WBP_Core]
+[2024.11.25-21.58.43:453][672]LogSavePackage: Moving output files for package: /WidgetStacking/Core/WBP_Core
+[2024.11.25-21.58.43:454][672]LogSavePackage: Moving 'C:/Users/Andre luiz/Documents/GitHub/GeekFabrikPlatformer/trunk/game/GeekFabrikPlatformer/Saved/WBP_Core5C07445E431BA897C36E29BD5EFAE7EE.tmp' to 'C:/Users/Andre luiz/Documents/GitHub/GeekFabrikPlatformer/trunk/game/GeekFabrikPlatformer/Plugins/WidgetStacking/Content/Core/WBP_Core.uasset'
+[2024.11.25-21.58.43:464][672]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.959 ms (total: 4.74 sec)
+[2024.11.25-21.58.43:549][672]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.25-21.58.43:549][672]LogContentValidation: Enabled validators:
+[2024.11.25-21.58.43:549][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.25-21.58.43:549][672]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.25-21.58.43:549][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.25-21.58.43:549][672]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.25-21.58.43:549][672]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.25-21.58.43:549][672]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.25-21.58.43:549][672]AssetCheck: /WidgetStacking/Core/WBP_Core Validating asset
+[2024.11.25-22.03.04:033][876]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3661.673096
+[2024.11.25-22.03.05:032][878]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-22.03.05:032][879]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3662.346191, Update Interval: 344.948273
+[2024.11.25-22.03.36:539][973]LogDerivedDataCache: C:/Users/Andre luiz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.11.25-22.09.38:441][ 58]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4056.083252
+[2024.11.25-22.09.39:446][ 61]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-22.09.39:446][ 61]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4056.754883, Update Interval: 345.226593
+[2024.11.25-22.15.58:195][197]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4435.828613
+[2024.11.25-22.15.59:195][201]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-22.15.59:197][201]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4436.496094, Update Interval: 358.005920
+[2024.11.25-22.22.27:940][367]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4825.577637
+[2024.11.25-22.22.28:939][369]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-22.22.28:939][369]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4826.243652, Update Interval: 338.740814
+[2024.11.25-22.28.55:694][529]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5213.333008
+[2024.11.25-22.28.56:694][533]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-22.28.56:694][533]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5214.000000, Update Interval: 337.272247
